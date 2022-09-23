@@ -1,3 +1,4 @@
+import pandas as pd
 from settings import Settings
 
 
@@ -7,4 +8,8 @@ class Source:
         self.settings = settings
 
     def load(self) -> list:
-        return []
+        file = self.settings.source.file
+        sheet = self.settings.source.sheet
+        column = self.settings.source.column
+        table = pd.read_excel(io=file, sheet_name=sheet, header=None)
+        return table[column].astype(str).tolist()
