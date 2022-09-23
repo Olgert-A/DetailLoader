@@ -6,6 +6,6 @@ def test_settings():
     assert s.status
     assert s.source.file == "source.xlsx"
     assert s.source.sheet == "Лист1"
-    assert s.source.column == 1
+    assert s.source.column == 2
     assert s.result.file == "result.xlsx"
     assert s.site.url == "localhost:8080"

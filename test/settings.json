@@ -5,7 +5,7 @@
   "source": {
     "file": "source.xlsx",
     "sheet": "Лист1",
-    "column": 1
+    "column": 2
   },
   "result": {
     "file": "result.xlsx"
