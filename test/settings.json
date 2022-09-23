@@ -1,0 +1,13 @@
+{
+  "site": {
+    "url": "localhost:8080"
+  },
+  "source": {
+    "file": "source.xlsx",
+    "sheet": "Лист1",
+    "column": 1
+  },
+  "result": {
+    "file": "result.xlsx"
+  }
+}
