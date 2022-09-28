@@ -87,9 +87,12 @@ table, th, td {
 </html>
 """
 
+
 def test_parser():
     settings = Settings(r'.\test\settings.json')
     assert settings.status
 
     parser = Parser(settings)
-    assert parser.parse({'Pin 193': html_text})
+    data = parser.parse({'Pin 193': html_text})
+    result = {'Pin 193': [('Engine', 'Auto', 8.0), ('Wheel', 'Moto', 4.0)]}
+    assert data == result

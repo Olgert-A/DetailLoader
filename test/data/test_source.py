@@ -8,5 +8,5 @@ def test_source():
 
     source = Source(settings)
     detail_list = source.load()
-    print(detail_list)
-    assert len(detail_list) > 0
+    assert detail_list == ['one', 'two', 'three', 'four']
+

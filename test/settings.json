@@ -3,7 +3,7 @@
     "url": "localhost:8080"
   },
   "source": {
-    "file": "source.xlsx",
+    "file": ".\\test\\source.xlsx",
     "sheet": "Лист1",
     "column": 2
   },
