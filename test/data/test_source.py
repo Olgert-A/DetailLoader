@@ -8,5 +8,5 @@ def test_source():
 
     source = Source(settings)
     detail_list = source.load()
-    assert detail_list == ['one', 'two', 'three', 'four']
+    assert detail_list == ['Pin 193', 'Pin 205']
 
