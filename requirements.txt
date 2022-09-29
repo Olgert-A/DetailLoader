@@ -3,4 +3,7 @@ asyncio
 pandas
 openpyxl
 lxml
+html5lib
 pytest
+pytest-asyncio
+BeautifulSoup4
